@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'Karatone';
+    src: url('Karatone.otf');
+}
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
+    font-family: 'Karatone';
     padding: 20px;
   }
   
@@ -48,7 +52,7 @@ body {
   }
   
   h1, h2 {
-    font-family: Impact, serif;
+    font-family: 'Karatone';
   }
   
   .item p {
