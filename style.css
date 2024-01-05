@@ -25,7 +25,11 @@ body {
   h1, h2, p, a {
     text-align: center;
   }
-  #buy {
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .option {
     font-size: 15px;
   }
   
@@ -37,7 +41,9 @@ body {
     padding: 20px;
     max-width: 500px;
   }
-  
+  .home {
+    text-decoration: none;
+  }
   img {
     display: block;
     margin-left: auto;
