@@ -118,9 +118,9 @@ body::-webkit-scrollbar {
   }
   
   a:hover {
-    color: brown;
+    color: pink;
   }
   
   a:active {
-    color:  #ca5865c4;
+    color:  pink;
   }
