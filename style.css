@@ -45,6 +45,7 @@ body::-webkit-scrollbar {
   }
   .option {
     font-size: 1.2rem;
+    text-decoration: none;
   }
   .tooltips {
     position: absolute;
