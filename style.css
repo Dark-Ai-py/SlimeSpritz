@@ -40,14 +40,36 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     gap: 50px;
+    height: 3rem;
+    align-items: center;
   }
   .option {
     font-size: 1.2rem;
   }
+  .tooltips {
+    position: absolute;
+    visibility: hidden;
+    background-color: #f7919d;
+    border-radius: 7px;
+    list-style: none;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    transform: translateY(-2rem);
+    border-color: #9a6067c4;
+    border-width: 2px;
+    border-style: solid;
+  }
+  li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .buy-tooltips:hover .tooltips {
+    visibility: visible;
+  }
   
   .menu {
     width: 80%;
-    background-color:  #f7919d;
+    background-color:  #f7919dec;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
