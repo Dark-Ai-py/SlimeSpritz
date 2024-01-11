@@ -67,7 +67,14 @@ body::-webkit-scrollbar {
   .buy-tooltips:hover .tooltips {
     visibility: visible;
   }
-  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(-1%)
+    }
+  }
   .menu {
     width: 80%;
     background-color:  #f7919dec;
@@ -76,6 +83,9 @@ body::-webkit-scrollbar {
     padding: 20px;
     max-width: 500px;
     border-radius: 1rem;
+
+    animation: slideUp 1s forwards;
+    animation-delay: 0s;
   }
   .home {
     text-decoration: none;
