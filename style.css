@@ -3,12 +3,15 @@
     src: url('Karatone.otf');
 }
 body {
-    background-image: url(slime-world.jpg);
-    background-size: cover;
+  background-image: url(slime-world.jpg);
+  background-size: cover;
     font-family: 'Karatone';
     padding: 20px;
     background-color: #f7919d;
+    display: grid;
+    justify-items: center;
   }
+
 
 /*Scrollbar*/
 body::-webkit-scrollbar {
@@ -68,15 +71,16 @@ body::-webkit-scrollbar {
     visibility: visible;
   }
   @keyframes slideUp {
-    0% {
-      transform: translateY(10%);
+    from {
+      transform: translateY(100px);
     }
-    100% {
-      transform: translateY(-1%)
+    to {
+      transform: translateY(0%)
     }
   }
   .menu {
     width: 80%;
+    height: 820px;
     background-color:  #f7919dec;
     margin-left: auto;
     margin-right: auto;
@@ -84,8 +88,10 @@ body::-webkit-scrollbar {
     max-width: 500px;
     border-radius: 1rem;
 
-    animation: slideUp 1s forwards;
+    animation: slideUp 1s;
     animation-delay: 0s;
+    position: absolute;
+    top: 30px;
   }
   .home {
     text-decoration: none;
