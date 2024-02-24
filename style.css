@@ -72,15 +72,15 @@ body::-webkit-scrollbar {
   }
   @keyframes slideUp {
     from {
-      transform: translateY(100px);
+      transform: translateY(5%);
     }
     to {
-      transform: translateY(0%)
+      transform: translateY(0%);
     }
   }
   .menu {
     width: 80%;
-    height: 820px;
+    height: fit-content;
     background-color:  #f7919dec;
     margin-left: auto;
     margin-right: auto;
