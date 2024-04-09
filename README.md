@@ -1,1 +1,1 @@
-The code for Avni's website. It if for the slime business Planned to be deployed on vercel
+The code for a friend's website. It is for a slime business.
